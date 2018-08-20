@@ -1,4 +1,7 @@
 import { injectGlobal } from 'styled-components';
+import Lato from './fonts/Lato-Regular.ttf';
+import LatoLight from './fonts/Lato-Light.ttf';
+import LatoThin from './fonts/Lato-Thin.ttf';
 
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
@@ -26,5 +29,18 @@ injectGlobal`
   label {
     font-family: Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5em;
+  }
+
+  @font-face {
+    font-family: Lato;
+    src: url('${Lato}') format('truetype');
+  }
+  @font-face {
+    font-family: LatoLight;
+    src: url('${LatoLight}') format('truetype');
+  }
+  @font-face {
+    font-family: LatoThin;
+    src: url('${LatoThin}') format('truetype');
   }
 `;

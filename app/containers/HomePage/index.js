@@ -11,24 +11,50 @@
 
 import React from 'react';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+
+
 const Div = styled.div`
-  margin: auto;
-  padding: 10%;
+  margin: 0 auto;
+  display: table;
 `;
 const Box = styled.div`
-  margin: 0 10%;
-  width: 80%;
+  margin: 20% 0;
+  width: 100%;
   text-align: center;
 `;
 const H1 = styled.h1`
   color: #222;
-  font-size: 36px;
-  font-family: 'Lato';
-  font-weight: 300;
+  font-size: 2.5vw;
+  font-family: LatoThin;
   display: inline;
 `;
 const H1Bold = H1.extend`
-  font-weight: 600;
+  font-family: Lato;
+`;
+const IconBar = styled.div`
+  margin-top: 1vw;
+  margin-bottom: 5vw;
+`;
+const Icon = styled.li`
+  display: inline;
+  color: #999;
+  list-style-type: none;
+  margin-right: 1vw;
+  font-size: 1.5vw;
+  &:hover {
+    color: #4C5870;
+  }
+`;
+const Underline = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eee;
 `;
 
 /* eslint-disable react/prefer-stateless-function */
@@ -42,8 +68,23 @@ export default class HomePage extends React.PureComponent {
           <H1>, a Software Engineer </H1><br/>
           <H1>From Jakarta Indonesia </H1><br/>
           <H1>Currently living and working in </H1><br/>
-          <H1>Kuala Lumpur Malaysia</H1>
-        </Box>
+          <H1>Kuala Lumpur Malaysia</H1><br/>
+          <IconBar>
+            <Icon>
+              <FontAwesomeIcon icon={['fab', 'instagram']}/>
+            </Icon>
+            <Icon>
+              <FontAwesomeIcon icon={['fab', 'linkedin']}/>
+            </Icon>
+            <Icon>
+              <FontAwesomeIcon icon={['fab', 'github']}/>
+            </Icon>
+            <Icon>
+              <FontAwesomeIcon icon={faEnvelope}/>
+            </Icon>
+          </IconBar>
+          <Underline/>
+        </Box>  
       </Div>
     );
   }
