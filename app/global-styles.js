@@ -2,6 +2,8 @@ import { injectGlobal } from 'styled-components';
 import Lato from './fonts/Lato-Regular.ttf';
 import LatoLight from './fonts/Lato-Light.ttf';
 import LatoThin from './fonts/Lato-Thin.ttf';
+import LatoHeavy from './fonts/Lato-Heavy.ttf';
+
 
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
@@ -42,5 +44,9 @@ injectGlobal`
   @font-face {
     font-family: LatoThin;
     src: url('${LatoThin}') format('truetype');
+  }
+  @font-face {
+    font-family: LatoHeavy;
+    src: url('${LatoHeavy}') format('truetype');
   }
 `;
