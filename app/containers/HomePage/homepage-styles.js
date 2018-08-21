@@ -40,17 +40,31 @@ export const Anchor = styled.a`
   }
 `;
 export const Bio = styled.div`
-  margin-top: 8vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
   text-align: left;
 `;
-export const Paragraph = styled.p`
-  font-family: Lato;
-  text-align: left;
-  width: 25vw;
+export const BioDiv = styled.div`
+  width: 30vw;
+  margin-right: 10vw;
+  display: inline-block;
 `;
 export const BioTitle = styled.h1`
   font-family: LatoHeavy;
   font-size: calc(0.8vw + 1vh + .5vmin);
   font-weight: 900;
   letter-spacing: 0.2vw;
+`;
+export const PSmall = styled.p`
+  font-family: Lato;
+  text-align: left;
+  width: 18vw;
+  font-size: calc(0.4vw + 0.4vh + .5vmin);
+  margin-bottom: 5vh;
+`;
+export const P = styled.p`
+  font-family: LatoLight;
+  text-align: left;
+  width: 35vw;
+  font-size: calc(0.7vw + 0.7vh + .5vmin);
 `;
