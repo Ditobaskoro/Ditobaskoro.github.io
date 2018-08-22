@@ -4,7 +4,7 @@ export const Div = styled.div`
   margin-left: 10vw;
   display: table;
 `;
-export const MainTitle = styled.div`
+export const MainSection = styled.div`
   margin-top: 55vh;
   text-align: left;
 `;
@@ -23,8 +23,8 @@ export const IconBar = styled.div`
 export const Icon = styled.li`
   display: inline;
   list-style-type: none;
-  margin-right: 1vw;
-  font-size: calc(1vw + 1vh + .5vmin);
+  margin-right: 1.2vw;
+  font-size: calc(1vw + 1vh + 1vmin);
 `;
 export const Underline = styled.div`
   width: 10vw;
@@ -39,7 +39,7 @@ export const Anchor = styled.a`
     color: #4C5870;
   }
 `;
-export const Bio = styled.div`
+export const Section = styled.div`
   margin-top: 20vh;
   margin-bottom: 20vh;
   text-align: left;
@@ -49,7 +49,7 @@ export const BioDiv = styled.div`
   margin-right: 10vw;
   display: inline-block;
 `;
-export const BioTitle = styled.h1`
+export const SectionTitle = styled.h1`
   font-family: LatoHeavy;
   font-size: calc(0.8vw + 1vh + .5vmin);
   font-weight: 900;
@@ -67,4 +67,15 @@ export const P = styled.p`
   text-align: left;
   width: 35vw;
   font-size: calc(0.7vw + 0.7vh + .5vmin);
+`;
+export const Button = styled.button`
+  width: 17vw;
+  height: 5vw;
+  border: 1px solid #222;
+`;
+export const ButtonText = styled.p`
+  font-family: Lato;
+  text-align: center;
+  width: 100%;
+  font-size: calc(0.4vw + 0.4vh + .4vmin);
 `;
