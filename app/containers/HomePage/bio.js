@@ -19,30 +19,32 @@ export default class Bio extends React.PureComponent {
             Has done various projects both website and hybrid apps for iOS and Android.
           </PSmall>
           <P>
-            Born in Jakarta and raised in Cilegon, small city in very west of Java.
-            A typical child who interested in game and computer things.
-            Got my first computer at age of 14, I just feel myself into it.
+            Born in Jakarta and raised in Cilegon, small city in west of Java.
+            I have spent my childhood in the beginning of internet era.
+            Starting to get familiar to the computer, and found it interesting.
           </P>
           <P>
-            Graduated from high school, continue my study in Depok West Java.
-            Majoring in IT I began to love web development,
-            though I’m not among the best one but I really proud of my works.
-            Finish my diploma, I continue to pursue my bachelor degree to Kuala Lumpur Malaysia.
-            I know it’s only small college,
-            but I also thinking about the experience I can get from study and living abroad.
+            Graduated from high school, continue my study in Politeknik Negeri Jakarta.
+            Majoring in IT and began to love web development,
+            though I was not among the best but I really proud of my works.
+            Finish my diploma,
+            then I got a chance to pursue my bachelor degree to Kuala Lumpur Malaysia.
+            I was thinking forward to get the experiences from study and living abroad.
           </P>
         </BioDiv>
         <BioDiv>
           <P>
             In between my study, I did my internship in small startup.
-            That’s where I feel more advanced as a developer, to be hired by local startup.
-            So much work to do, getting paid peanuts.
-            That was one hell of an experience, makes me ready to get by real job.
+            That’s the first time I get into the real job, and I feel more advanced as a developer.
+            I’ve learn so much technology by doing the real project.
+            It was good experience,
+            and open my eyes that the real project are
+            different from the theory we learn from school.
           </P>
           <P>
             After I land my first job, that’s where I introduced by ”javascript”
             and all of its technology.
-            And starting to get love/hate relationship with this programming
+            And starting to get deeper with this programming
             language that lead me into today.
             Become a software developer, I realized that I need to constantly
             learning and keep up because the technology are moving fast.
