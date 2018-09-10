@@ -80,7 +80,7 @@ export const ButtonText = styled.p`
   font-size: calc(0.4vw + 0.4vh + .4vmin);
 `;
 export const SectionBig = styled.div`
-  width: 40vw;
+  width: 35vw;
   display: inline-block;
 `;
 export const SectionSmall = styled.div`
@@ -105,7 +105,7 @@ export const BottomText = styled.p`
 `;
 export const ExpertItem = styled.h1`
   color: #222;
-  font-size: calc(1vw + .5vh + .5vmin);
+  font-size: calc(.9vw + .5vh + .5vmin);
   font-family: LatoThin;
 `;
 export const ContactText = styled.h1`
