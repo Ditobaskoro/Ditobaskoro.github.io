@@ -9,7 +9,7 @@ export default class Footer extends React.PureComponent {
     return (
       <SectionBottom>
         <BottomLine />
-        <BottomText>© 2018 Dito Anwar Baskoro.</BottomText>
+        <BottomText>© 2019 Dito Anwar Baskoro.</BottomText>
       </SectionBottom>
     );
   }

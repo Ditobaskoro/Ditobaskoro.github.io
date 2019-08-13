@@ -24,11 +24,11 @@ export default class Main extends React.PureComponent {
           <H1>Frontend Developer</H1>
         </TextLoop>
         <br />
-        <H1>From Jakarta Indonesia</H1>
+        {/* <H1>From Jakarta Indonesia</H1> */}
         <br />
         <H1>Currently living and working in</H1>
         <br />
-        <H1>Kuala Lumpur Malaysia</H1>
+        <H1>Jakarta, Indonesia</H1>
         <br />
         <IconBar>
           <Icon>
