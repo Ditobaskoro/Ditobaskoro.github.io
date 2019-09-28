@@ -43,6 +43,7 @@ export const Section = styled.div`
   margin-top: 20vh;
   margin-bottom: 10vh;
   text-align: left;
+  display: inline-flex;
 `;
 export const BioDiv = styled.div`
   width: 30vw;
@@ -81,11 +82,9 @@ export const ButtonText = styled.p`
 `;
 export const SectionBig = styled.div`
   width: 35vw;
-  display: inline-block;
 `;
 export const SectionSmall = styled.div`
   width: 25vw;
-  display: inline-block;
 `;
 export const SectionBottom = styled.div`
   margin-top: 20vh;
