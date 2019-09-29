@@ -45,6 +45,12 @@ export const Section = styled.div`
   text-align: left;
   display: inline-flex;
 `;
+export const SectionBlock = styled.div`
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  text-align: left;
+  display: block;
+`;
 export const BioDiv = styled.div`
   width: 30vw;
   margin-right: 10vw;
@@ -94,7 +100,8 @@ export const BottomLine = styled.p`
   margin-bottom: calc(1vw + 1vh + 1vmin);
   border-style: solid;
   border-width: 0.6px;
-  border-color: #aaa; 
+  border-color: #aaa;
+  margin-right: 5vw;
 `;
 export const BottomText = styled.p`
   font-family: LatoLight;
@@ -124,4 +131,56 @@ export const ContactTextUL = styled.a`
 `;
 export const Divider = Underline.extend`
   margin-bottom: 5vh;
+`;
+export const WorkList = styled.div`
+  width:75vw;
+  display: block;
+  margin-top: 2em;
+`;
+export const WorkItemLeft = styled.div`
+  display: block;
+  text-align: left;
+  margin-top: 3em;
+`;
+export const WorkItemRight = styled.div`
+  display: block;
+  text-align: right;
+  margin-top: 3em;
+`;
+export const WorkItemTitle = styled.h1`
+  font-family: Lato;
+  font-size: calc(0.8vw + 1vh + .5vmin);
+  font-weight: 600;
+  letter-spacing: 0.2vw;
+`;
+export const WorkItemDescRight = styled.div`
+  font-family: LatoLight;
+  font-size: calc(0.7vw + 0.7vh + .5vmin);
+  padding-left: 30%;
+  text-align: justify;
+  text-justify: inter-word;
+`;
+export const WorkItemDescLeft = styled.div`
+  font-family: LatoLight;
+  font-size: calc(0.7vw + 0.7vh + .5vmin);
+  padding-right: 30%;
+  text-align: justify;
+  text-justify: inter-word;
+`;
+export const WorkItemLink = styled.a`
+  text-decoration: none;
+  color: #222;
+  font-size: calc(0.7vw + 0.7vh + .5vmin);
+  font-family: Lato;
+  padding-bottom: 5px;
+  border-bottom: .8px solid #222;
+`;
+export const WorkItemStack = styled.p`
+  font-family: LatoLight;
+  width: 35vw;
+  color: #555;
+  font-size: calc(0.7vw + 0.7vh + .5vmin);
+  width:100%;
+  margin-top: 1em;
+  margin-bottom: 0;
 `;

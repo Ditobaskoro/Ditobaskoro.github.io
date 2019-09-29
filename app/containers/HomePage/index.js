@@ -16,6 +16,7 @@ import {
 import Bio from './bio';
 import Main from './main';
 import Expertise from './expertise';
+import Works from './works';
 import Footer from './footer';
 
 /* eslint-disable react/prefer-stateless-function */
@@ -26,6 +27,8 @@ export default class HomePage extends React.PureComponent {
         <Main />
         <Underline />
         <Bio />
+        <Underline />
+        <Works />
         <Underline />
         <Expertise />
         <Footer />
