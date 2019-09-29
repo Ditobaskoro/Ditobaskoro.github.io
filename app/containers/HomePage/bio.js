@@ -30,7 +30,7 @@ export default class Bio extends React.PureComponent {
             Frontend development.
           </PSmall>
           <P>
-            Born in Jakarta and raised in Cilegon, small city in Banten province Indonesia.
+            Born in Jakarta and raised in Cilegon, city in Banten province, Indonesia.
             I have spent my childhood in the beginning of internet era.
             Starting to get familiar to the computer, and found it interesting.
           </P>
