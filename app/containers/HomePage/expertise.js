@@ -22,13 +22,13 @@ export default class Expertise extends React.Component {
             </Button>
           </SectionSmall>
           <SectionBig>
-            <ExpertItem>- Web development</ExpertItem>
+            <ExpertItem>- Web Development</ExpertItem>
             <ExpertItem>- HTML</ExpertItem>
             <ExpertItem>- CSS</ExpertItem>
             <ExpertItem>- Javascript</ExpertItem>
             <ExpertItem>- PHP</ExpertItem>
             <ExpertItem>- Hybrid Apps Development</ExpertItem>
-            <ExpertItem>- Mobile Apps Development</ExpertItem>
+            <ExpertItem>- Mobile Apps Deployment</ExpertItem>
           </SectionBig>
           <SectionSmall>
             <ExpertItem>- React</ExpertItem>
