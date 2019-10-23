@@ -18,7 +18,7 @@ export default class Expertise extends React.Component {
               Worked on web app and hybrid app projects.
             </PSmall>
             <Button>
-              <ButtonText onClick={() => window.open('http://bit.ly/dito-resume', 'blank')}>My Résumé</ButtonText>
+              <ButtonText onClick={() => window.open('http://bit.ly/resume-ditobaskoro', 'blank')}>My Résumé</ButtonText>
             </Button>
           </SectionSmall>
           <SectionBig>
