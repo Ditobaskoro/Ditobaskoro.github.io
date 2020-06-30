@@ -2,8 +2,9 @@ import React from 'react';
 import TextLoop from 'react-text-loop';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import emoji from '../../images/emoji.png';
 import {
-  MainSection, H1, H1Bold, IconBar, Icon, Anchor,
+  MainSection, H1, H1Bold, IconBar, Icon, Anchor, Emoji,
 } from './homepage-styles';
 
 export default class Main extends React.PureComponent {
@@ -15,8 +16,9 @@ export default class Main extends React.PureComponent {
   render() {
     return (
       <MainSection>
-        <H1>Hello, my name is </H1>
-        <H1Bold>Dito Anwar Baskoro.</H1Bold>
+        {/* <H1>Hello, my name is </H1> */}
+        <H1Bold>Dito Anwar Baskoro</H1Bold>
+        <Emoji src={emoji} />
         <br />
         <H1>I’m a </H1>
         <TextLoop>

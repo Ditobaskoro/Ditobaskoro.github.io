@@ -184,3 +184,8 @@ export const WorkItemStack = styled.p`
   margin-top: 1em;
   margin-bottom: 0;
 `;
+export const Emoji = styled.img`
+  width: calc(2.5vw + 1vh + .5vmin);
+  height: calc(3vw + 1vh + .5vmin);
+  margin-left: 0.75vw;
+`;

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /*
  * HomePage
  *
@@ -13,8 +14,9 @@ import React from 'react';
 import {
   Div, Underline,
 } from './homepage-styles';
-import Bio from './bio';
+
 import Main from './main';
+import Bio from './bio';
 import Expertise from './expertise';
 import Works from './works';
 import Footer from './footer';
@@ -25,13 +27,13 @@ export default class HomePage extends React.PureComponent {
     return (
       <Div>
         <Main />
-        <Underline />
+        {/* <Underline />
         <Bio />
         <Underline />
         <Works />
         <Underline />
         <Expertise />
-        <Footer />
+        <Footer /> */}
       </Div>
     );
   }
